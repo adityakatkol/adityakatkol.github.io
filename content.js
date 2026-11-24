@@ -74,8 +74,26 @@ window.SITE = {
             "A Python 3.12 pipeline pulls in the data, cleans it, and runs a custom projections engine. The engine weights the current season most heavily, accounts for bye weeks and injuries, and turns projections into rankings and trade values.",
             "The pipeline writes its results as data files that a plain HTML, CSS and JavaScript front end reads. There's no server to keep running. The site is hosted on Cloudflare Pages, and a scheduled GitHub Actions job reruns the pipeline every morning so the numbers stay current."
           ],
-          image: "assets/img/fantasy-lab-rankings.jpg",
-          imageAlt: "Weekly quarterback rankings with projections, floor, ceiling and tiers"
+          image: "assets/img/fantasy-lab-rankings.jpg?v=2",
+          imageAlt: "Weekly quarterback rankings with player photos, team, opponent, projection, floor, ceiling and tiers"
+        },
+        {
+          heading: "Start/sit",
+          paragraphs: [
+            "The start/sit page is for the decision everyone makes every week: which player goes in the lineup. Pick two or three players and it gives a clear call, with the reasons behind it.",
+            "It simulates the week 20,000 times to show how often each player comes out on top, and lists the things that matter: the matchup, recent form, weather, and who has the safer floor or the higher ceiling."
+          ],
+          image: "assets/img/fantasy-lab-startsit.jpg?v=1",
+          imageAlt: "Start/sit comparison of Brock Purdy and Dak Prescott with a recommendation, win chances and the reasons behind it"
+        },
+        {
+          heading: "Trade calculator",
+          paragraphs: [
+            "The trade calculator answers whether a trade is fair. Add players to each side and a meter shows who comes out ahead, from a clear loss to a clear win.",
+            "Values work like a real trade market: one star is worth more than several average players, and quarterbacks count for less in normal one-QB leagues. When a deal is lopsided, it suggests players that would even it out."
+          ],
+          image: "assets/img/fantasy-lab-trade.jpg?v=1",
+          imageAlt: "Trade calculator showing a two-for-one trade, a verdict meter, and suggested players to balance it"
         },
         {
           heading: "Player pages",
