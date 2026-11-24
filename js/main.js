@@ -52,7 +52,7 @@
     var html = "";
     if (first) {
       html += '<article class="card feature">' +
-        (first.image ? '<img src="' + esc(first.image) + '" alt="' + esc(first.imageAlt) + '" width="1600" height="1111">' : "") +
+        ((first.cardImage || first.image) ? '<img src="' + esc(first.cardImage || first.image) + '" alt="' + esc(first.cardImageAlt || first.imageAlt) + '">' : "") +
         '<div><div class="label">' + esc(first.label) + "</div>" +
         '<h3><a href="' + writeupUrl(first) + '">' + esc(first.title) + "</a></h3>" +
         "<p>" + esc(first.summary) + "</p>" + chips(first.stack) +
