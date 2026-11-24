@@ -21,7 +21,7 @@ window.SITE = {
   description: "Aditya Katkol: software developer and data science master's student. Projects, experience and resume.",
 
   // ---------- Top of the home page ----------
-  greeting: "Aditya Katkol.",
+  greeting: "Aditya Katkol",
   intro: "I'm a software developer at CheckIt Labs and a data science master's student at UC Berkeley. My current project is building Fantasy Lab, a fantasy football site I use for my own Sleeper leagues.",
 
   // ---------- Contact links ----------
