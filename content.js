@@ -21,8 +21,8 @@ window.SITE = {
   description: "Aditya Katkol: software developer and data science master's student. Projects, experience and resume.",
 
   // ---------- Top of the home page ----------
-  greeting: "Hi, I'm Aditya.",
-  intro: "I'm a software developer at CheckIt Labs and a data science master's student at UC Berkeley. On the side I'm building Fantasy Lab, a fantasy football site I use for my own Sleeper leagues.",
+  greeting: "Aditya Katkol.",
+  intro: "I'm a software developer at CheckIt Labs and a data science master's student at UC Berkeley. My current project is building Fantasy Lab, a fantasy football site I use for my own Sleeper leagues.",
 
   // ---------- Contact links ----------
   links: {
@@ -115,7 +115,7 @@ window.SITE = {
 
   // ---------- About ----------
   about: [
-    "I've been a software developer at CheckIt Labs since 2024. I'm the backend developer on an AI interview platform, so I work on the chat agent, the voice and video features, and the APIs behind them.",
+    "I've been a software developer at CheckIt Labs since 2024. I'm the backend developer on the AI development & analytics team for the flagship platform, CheckIT Learning.",
     "I studied Information Systems at UC Riverside, and in 2026 I started the Master of Information and Data Science program at UC Berkeley."
   ],
 
@@ -124,7 +124,7 @@ window.SITE = {
     {
       years: "2024 – now",
       title: "Software Developer, CheckIt Labs",
-      text: "Backend for an AI interview platform: chat agent, voice and video, and the tests around them."
+      text: "Backend & analytics for an AI education platform: chat agent, dashboard analytics, and the tests around them."
     },
     {
       years: "2023",
