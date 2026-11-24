@@ -65,7 +65,7 @@
         return '<article class="card small"><div class="label">' + esc(p.label) + (p.year ? " &middot; " + esc(p.year) : "") + "</div>" +
           '<h3><a href="' + writeupUrl(p) + '">' + esc(p.title) + "</a></h3>" +
           "<p>" + esc(p.summary) + "</p>" + chips(p.stack) +
-          (p.liveUrl ? '<div class="btns" style="margin-top:18px">' + external(p.liveUrl, p.liveLabel || "Visit site", "btn solid") + "</div>" : "") +
+          (p.liveUrl ? '<div class="btns" style="margin-top:18px">' + external(p.liveUrl, p.liveLabel || "Visit site", "btn solid") + (p.extraUrl ? external(p.extraUrl, p.extraLabel || "More", "btn line") : "") + "</div>" : "") +
           "</article>";
       }).join("") + "</div>";
     }
@@ -86,7 +86,7 @@
     if (meta) meta.content = p.summary;
     var out = '<header class="wu-head"><div class="label">' + esc(p.label) + (p.year ? " &middot; " + esc(p.year) : "") + "</div>" +
       "<h1>" + esc(p.title) + '</h1><p class="lede">' + esc(p.summary) + "</p>" + chips(p.stack) +
-      (p.liveUrl ? '<div class="btns">' + external(p.liveUrl, p.liveLabel || "Visit site", "btn solid") + "</div>" : "") + "</header>";
+      (p.liveUrl ? '<div class="btns">' + external(p.liveUrl, p.liveLabel || "Visit site", "btn solid") + (p.extraUrl ? external(p.extraUrl, p.extraLabel || "More", "btn line") : "") + "</div>" : "") + "</header>";
     if (p.image) out += '<img class="wu-hero" src="' + esc(p.image) + '" alt="' + esc(p.imageAlt) + '">';
 
     (p.writeup || []).forEach(function (s) {

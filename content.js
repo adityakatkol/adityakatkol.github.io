@@ -96,8 +96,11 @@ window.SITE = {
       image: "assets/img/ct-deaths-by-year.jpg?v=1",
       imageAlt: "Bar chart of accidental drug deaths in Connecticut by year, rising from 355 in 2012 to 1,038 in 2017",
       stack: ["Tableau", "Connecticut open data"],
-      liveUrl: "https://data.ct.gov/Health-and-Human-Services/Accidental-Drug-Related-Deaths-2012-2024/rybz-nyjw",
-      liveLabel: "See the dataset",
+      liveUrl: "https://public.tableau.com/app/profile/aditya.katkol/viz/ConnecticutOverdoseData/Sheet2",
+      liveLabel: "View in Tableau",
+      // Optional second button
+      extraUrl: "https://data.ct.gov/Health-and-Human-Services/Accidental-Drug-Related-Deaths-2012-2024/rybz-nyjw",
+      extraLabel: "See the dataset",
 
       writeup: [
         {
