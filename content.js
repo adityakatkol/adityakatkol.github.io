@@ -92,25 +92,44 @@ window.SITE = {
       title: "Connecticut overdose data",
       label: "Class project",
       year: "2023",
-      summary: "Looked at public health data on overdose cases in Connecticut, mapped where they were concentrated in Tableau, and presented policy ideas for New Haven and Hartford to department leaders at UC Riverside's business school.",
-      image: "",
-      imageAlt: "",
-      stack: ["Tableau", "Public health data"],
-      liveUrl: "",
+      summary: "A group project for a business class at UC Riverside. Five of us used Connecticut's public data on accidental drug deaths from 2012 to 2018 to look at who was dying, which drugs were involved and where, then built the charts in Tableau and presented policy ideas.",
+      image: "assets/img/ct-deaths-by-year.jpg?v=1",
+      imageAlt: "Bar chart of accidental drug deaths in Connecticut by year, rising from 355 in 2012 to 1,038 in 2017",
+      stack: ["Tableau", "Connecticut open data"],
+      liveUrl: "https://data.ct.gov/Health-and-Human-Services/Accidental-Drug-Related-Deaths-2012-2024/rybz-nyjw",
+      liveLabel: "See the dataset",
 
       writeup: [
         {
           heading: "What it was",
           paragraphs: [
-            "A class project at UC Riverside's School of Business, from September to December 2023. We analyzed public health datasets on overdose cases in Connecticut to look for demographic trends."
+            "A group project for BUS 173 at UC Riverside's School of Business, fall 2023, done with four classmates. We used data from Connecticut's Office of the Chief Medical Examiner, which lists every accidental death linked to a drug overdose in the state, with the person's age, sex, town and the drugs found.",
+            "We looked at 2012 to 2018, about 5,100 deaths. The state still publishes this data, and it now runs through 2024."
           ]
         },
         {
-          heading: "What we did",
+          heading: "What we found",
           list: [
-            "Ran a quantitative analysis of the datasets to find which groups and areas were most affected.",
-            "Built Tableau maps of the areas with the most incidents, which pointed to New Haven and Hartford (over 2,000 cases).",
-            "Turned the findings into policy recommendations and presented them to a board of department leaders."
+            "Deaths almost tripled in six years, from 355 in 2012 to a peak of 1,038 in 2017.",
+            "About three out of four people who died were men. Deaths among men peaked at ages 35 to 39, and among women at ages 50 to 54.",
+            "Fentanyl was the big change. It showed up in 13 deaths in 2012 and 760 in 2018, passing heroin in 2017.",
+            "Hartford and New Haven counties had the most deaths by far, together close to half of the total."
+          ]
+        },
+        {
+          heading: "How fentanyl changed things",
+          paragraphs: [
+            "Heroin and cocaine deaths rose too, but fentanyl drove most of the increase after 2015. One death can involve more than one drug, so the lines add up to more than the total."
+          ],
+          image: "assets/img/ct-drugs-by-year.jpg?v=1",
+          imageAlt: "Line chart of deaths involving fentanyl, heroin and cocaine in Connecticut by year, 2012 to 2018"
+        },
+        {
+          heading: "What we did with it",
+          list: [
+            "Built charts and maps in Tableau by age, sex, drug, county and year.",
+            "Wrote a report and recorded a video walking through the findings.",
+            "Suggested putting education, treatment and emergency response money into the hardest-hit communities, tracking prescription drug use, and school outreach, then presented the ideas to a board of department leaders."
           ]
         }
       ]
