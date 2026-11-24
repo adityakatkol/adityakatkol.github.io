@@ -48,7 +48,7 @@ window.SITE = {
       // Picture at the top of the write-up page
       image: "assets/img/fantasy-lab-player.jpg?v=2",
       imageAlt: "Fantasy Lab player page for Jaxon Smith-Njigba showing weekly points, outlook and recent games",
-      stack: ["Python 3.12", "nflverse", "Sleeper API", "NFL injury reports", "HTML / CSS / JS", "Cloudflare Pages", "GitHub Actions"],
+      stack: ["Python 3.12", "nflverse", "Sleeper API", "NFL injury reports", "HTML / CSS / JS", "Cloudflare Pages"],
       liveUrl: "https://fantasy-lab.pages.dev",
 
       // The full write-up page for this project.
@@ -71,7 +71,7 @@ window.SITE = {
         {
           heading: "How it works",
           paragraphs: [
-            "A Python 3.12 pipeline built on pandas pulls in the data, cleans it, and runs a custom projections engine. The engine weights the current season most heavily, accounts for bye weeks and injuries, and turns projections into rankings and trade values.",
+            "A Python 3.12 pipeline pulls in the data, cleans it, and runs a custom projections engine. The engine weights the current season most heavily, accounts for bye weeks and injuries, and turns projections into rankings and trade values.",
             "The pipeline writes its results as data files that a plain HTML, CSS and JavaScript front end reads. There's no server to keep running. The site is hosted on Cloudflare Pages, and a scheduled GitHub Actions job reruns the pipeline every morning so the numbers stay current."
           ],
           image: "assets/img/fantasy-lab-rankings.jpg",
@@ -92,7 +92,7 @@ window.SITE = {
       title: "Connecticut overdose data",
       label: "Data analysis",
       year: "2023",
-      summary: "An analysis of Connecticut's public data on accidental drug deaths from 2012 to 2018: who was dying, which drugs were involved and where. Charts and maps built in Tableau, with policy ideas presented to department leaders.",
+      summary: "An analysis of Connecticut's public data on accidental drug deaths from 2012 to 2018: who was dying, which drugs were involved, and where. Charts and maps built in Tableau, with policy ideas presented to department leaders.",
       image: "assets/img/ct-deaths-by-year.jpg?v=1",
       imageAlt: "Bar chart of accidental drug deaths in Connecticut by year, rising from 355 in 2012 to 1,038 in 2017",
       stack: ["Tableau", "Connecticut open data"],
@@ -133,7 +133,7 @@ window.SITE = {
 
   // ---------- About ----------
   about: [
-    "I've been a software developer at CheckIt Labs since 2024. I'm the backend developer on the AI development & analytics team for the flagship platform, CheckIT Learning.",
+    "I've been a software developer at CheckIt Labs since 2024. I'm a backend developer on the AI development & analytics team for the flagship platform, CheckIT Learning.",
     "I studied Information Systems at UC Riverside, and in 2026 I started the Master of Information and Data Science program at UC Berkeley."
   ],
 
