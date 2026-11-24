@@ -43,11 +43,11 @@ window.SITE = {
       year: "2026",
       summary: "A fantasy football site with weekly and rest-of-season rankings, waiver pickups, a trade calculator, and player pages with game logs going back to 1999. It connects to Sleeper leagues, and the stats and projections update every morning.",
       // Picture on the home page card
-      cardImage: "assets/img/fantasy-lab-dashboard.jpg?v=2",
+      cardImage: "assets/img/fantasy-lab-dashboard.jpg?v=3",
       cardImageAlt: "Fantasy Lab home dashboard with example leagues and this week's matchups",
       // Picture at the top of the write-up page
-      image: "assets/img/fantasy-lab-player.jpg?v=2",
-      imageAlt: "Fantasy Lab player page for Jaxon Smith-Njigba showing weekly points, outlook and recent games",
+      image: "assets/img/fantasy-lab-dashboard.jpg?v=3",
+      imageAlt: "Fantasy Lab home dashboard with example leagues, records and this week's matchups",
       stack: ["Python 3.12", "nflverse", "Sleeper API", "NFL injury reports", "HTML / CSS / JS", "Cloudflare Pages"],
       liveUrl: "https://fantasy-lab.pages.dev",
 
