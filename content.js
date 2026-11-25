@@ -29,7 +29,7 @@ window.SITE = {
     email: "adityakatkol@gmail.com",
     github: "https://github.com/adityakatkol",
     linkedin: "https://www.linkedin.com/in/adityakatkol/",
-    resume: "assets/Aditya_Katkol_Resume.pdf"
+    resume: "assets/Aditya_Katkol_Resume.pdf?v=2"
   },
 
   // ---------- Projects ----------
@@ -151,7 +151,7 @@ window.SITE = {
 
   // ---------- About ----------
   about: [
-    "I've been a software developer at CheckIt Learning since 2024. I'm a backend developer on the AI development & analytics team for the flagship platform, CheckIT Learning.",
+    "I've been a software developer at CheckIt Learning since 2024. I own the event telemetry and analytics pipeline for CheckIT Learning, a school learning platform, and work on its AI features, including an AI interview chat agent and the AI Assistant.",
     "I studied Information Systems at UC Riverside, and in 2026 I started the Master of Information and Data Science program at UC Berkeley."
   ],
 
@@ -160,7 +160,7 @@ window.SITE = {
     {
       years: "2024 – now",
       title: "Software Developer, CheckIt Learning",
-      text: "Backend & analytics for an AI education platform: chat agent, dashboard analytics, and the tests around them."
+      text: "Own the event telemetry and analytics pipeline for a school learning platform, from raw usage events to Power BI dashboards. Also built AI usage analytics and an AI interview chat agent, with the tests around them."
     },
     {
       years: "2023",
